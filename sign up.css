@@ -1,0 +1,131 @@
+      body {
+            background-color: #E3F2FD;
+            justify-content: center;
+            padding: 10px;
+        }
+        header {
+          top: -10px;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          margin-bottom: 30px;
+          padding: 20px 0;
+          background-color: #2c3e50;
+          color: white;
+          border-radius: 5px;
+          position: fixed;
+    
+        }
+        img{
+            width:42;
+            height:42;
+            border-radius:50%;
+            float: left;
+        }
+      
+        .login-box {
+            margin-left:20em;
+            margin-top:160px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            width: 350px;
+        }
+
+        .login-box h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .input-field {
+            margin-bottom: 15px;
+        }
+
+        .input-field input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        .btn {
+            margin-left:0%;
+            margin-right: 100px;
+            margin-bottom:10px;
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        a{
+            color: rgb(235, 241, 239);
+            text-decoration: none; 
+         }
+
+        .btn:hover {
+            background: #0056b3;
+        }
+
+        .error {
+            background: #ffe0e0;
+            color: red;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .succes {
+            background: #aaebda;
+            color: #191a19;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        
+
+
+        .login-container {
+            max-width: 400px;
+            margin: 5% auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        footer {
+            height: auto;
+            background-color: #2c3e50;
+            color: #ccc;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            border-radius: 5px;
+        }
+
+        .logo-img {
+            height: 60px;
+            display: block;
+            margin: 10px auto;
+        }
+
+        .form-control {
+            margin-bottom: 15px;
+        }
+
+        .nav-item a {
+            color: white !important;
+        }
+
+        @media screen and (max-width: 768px) {
+            .navbar-nav {
+                text-align: center;
+            }
+        }
